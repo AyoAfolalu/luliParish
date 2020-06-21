@@ -1,0 +1,231 @@
+html {
+  scroll-behavior: smooth;
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+	margin-bottom: 60px;
+}
+
+#landingPageCaption{
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 45%;
+}
+
+h1{
+	 font-size: 100px;
+}
+
+
+.marketing .col-lg-4 {
+margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  text-align: center;
+}
+
+  .featurette-heading {
+    font-size: 50px;
+    margin-bottom: 3.5rem;
+    padding-bottom: 10px;
+
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
+
+#map-container-google-12
+{
+	margin: 2em;
+}
+
+
+#carouselExampleFade
+{
+       padding-bottom: 2em;
+}
+
+.col-md-6 {
+       padding-bottom: 2em;
+}
+
+/*.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+}
+
+#centeredSmall{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5em;
+}
+*/
+.navbar-brand {
+	font-family: 'Marko One', serif;
+}
+
+#footerText{
+	font-size: 12px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+ #space {
+padding-bottom: 30px;
+ }
+
+ #emailInput
+ {
+ 	padding-top: 10px;
+ }
+
+ .form-group1{
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ }
+
+.nav-link {
+transform: translate(0, 0);
+transition: .5s ease;
+}
+
+.nav-link:hover {
+transform: translate(0, -10px);
+transition: .5s ease;
+}
+
+.card{
+	box-shadow: 3px 3px 9px rgba(0,0,0,0.9);
+	transition: 0.5s ease;
+	cursor: pointer;
+	transform: scale(0.9);
+}
+
+.card:hover
+{
+	transform: scale(1.1);
+	box-shadow: 3px 3px 9px rgba(0,0,0,0.6);
+
+}
+
+.centered1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/*Gallery CSS*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of three columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+#galleryDesc:
+{
+transform: scale: 1.1;
+transition: 0.5s;
+
+}
+  
+#galleryDesc:hover
+{
+transition: 0.5s;
+transform: scale(1.015);
+}
+  
+.up-arrow {
+transform: translate(0, 0);
+transition: .5s ease;
+}
+
+.up-arrow:hover {
+transform: translate(0, -10px);
+transition: .5s ease;
+}
