@@ -1,18 +1,20 @@
 var express = require("express");
 var app = express();
 
+app.use(express.static("public"));
+app.set("view engine","ejs");
+
 
 //==================================================
 //ROUTES
 //==================================================
 app.get("/",function(req,res)
 {
-		res.send("Hi there");
-		
+		res.render("home");
 		});
 
 
 app.listen(process.env.PORT || 3000, process.env.IP, () =>{
-	console.log('Server has started');
+	console.log('Serv3r has started');
 });
 	
