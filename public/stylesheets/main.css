@@ -156,9 +156,8 @@ transition: .5s ease;
 
 .card:hover
 {
-	transform: scale(1.1);
+	text-decoration: underline;
 	box-shadow: 3px 3px 9px rgba(0,0,0,0.6);
-
 }
 
 .centered1 {
@@ -167,7 +166,6 @@ transition: .5s ease;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 
 /*Gallery CSS*/
