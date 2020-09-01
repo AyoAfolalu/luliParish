@@ -210,6 +210,7 @@ transition: .5s ease;
 {
 transform: scale: 1.1;
 transition: 0.5s;
+	
 
 }
   
@@ -228,3 +229,4 @@ transition: .5s ease;
 transform: translate(0, -10px);
 transition: .5s ease;
 }
+
