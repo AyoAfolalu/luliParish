@@ -218,6 +218,7 @@ transition: 0.5s;
 {
 transition: 0.5s;
 transform: scale(1.015);
+cursor:pointer;
 }
   
 .up-arrow {
