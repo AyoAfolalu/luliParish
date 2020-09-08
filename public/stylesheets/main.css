@@ -157,7 +157,7 @@ transition: .5s ease;
 
 .card:hover
 {
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	box-shadow: 3px 3px 9px rgba(0,0,0,0.6);
 }
 
